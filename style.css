@@ -1,0 +1,98 @@
+.calculatorContainer {
+  margin: auto;
+  border-radius: 7%;
+  width: 400px;
+  height: 700px;
+  background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+}
+
+.calculatorDisplay {
+  height: 200px;
+}
+
+.calculatorButtonContainer {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.calculatorButtonRow {
+  height: 100px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+}
+
+.calculatorButton {
+  height: 70px;
+  width: 70px;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.calculatorWideButton {
+  height: 70px;
+  width: 172px;
+  margin: auto;
+  border-radius: 500px;
+  display: flex;
+  justify-content: start;
+  cursor: pointer;
+}
+
+.calculatorButton.grey > p {
+  color: #1c1c1c;
+  font-size: x-large;
+  font-family: sans-serif;
+  line-height: 100%;
+}
+
+.calculatorButton.orange > p {
+  color: white;
+  font-size: x-large;
+  line-height: 100%;
+}
+
+.calculatorButton.dark > p {
+  color: white;
+  font-size: x-large;
+  font-family: sans-serif;
+  line-height: 100%;
+}
+
+.calculatorWideButton > p {
+  margin-left: 30px;
+  color: white;
+  font-size: x-large;
+  font-family: sans-serif;
+  line-height: 100%;
+}
+
+.grey {
+  background-color: #d4d4d2;
+}
+
+.orange {
+  background-color: #ff9500;
+}
+
+.dark {
+  background-color: #505050;
+}
+
+.grey:hover {
+  background-color: #ececea;
+}
+
+.orange:hover {
+  background-color: #eaa94f;
+}
+
+.dark:hover {
+  background-color: #656363;
+}
